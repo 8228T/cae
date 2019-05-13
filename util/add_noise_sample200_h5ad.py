@@ -40,8 +40,6 @@ args = parse_args ()
 
 print ('sample = ', args.sample, ' cropped = ', args.cropped, ' method = ', args.method, ' noise = ', args.noise, ' sigma = ', args.sigma, ' debug = ', args.debug)
 
-#base_directory = "/home/chiaretta/usr/Year4Project/Project"
-#base_directory = "/local/scratch/cnl29/project"
 
 data_dir = args.base_dir + '/data/RnaSeqGeneMatrix'
 raw_dir = data_dir + '/raw'
